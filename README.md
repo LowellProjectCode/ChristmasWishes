@@ -1,6 +1,6 @@
 # ChristmasWishes
 
-## Instructions:
+### Instructions
 
 1. Go onto the Lowell Project Code's "ChristmasWishes" repository
 2. Click "." on your keyboard to enter GitHub's dev mode (or change url from github.com -->  github.dev)
