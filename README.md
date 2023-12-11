@@ -29,4 +29,4 @@ Instructions:
 
 21. Now wait for admins to approve merges
 
-22. Go onto [https://lowellprojectcode.github.io/ChristmasWishes/subpages/[YOUR FOLDER NAME]/index.html]
+22. Go onto [https://lowellprojectcode.github.io/ChristmasWishes/subpages/[YOUR FOLDER NAME]/index.html]()
