@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("applab/fontawesome-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: #e8e7de;
+  font-family: 'Montserrat', sans-serif;
+}
+.chessboard {
+    width: 1280px;
+    height: 1600px;
+    margin: 20px;
+    border: 10px solid #000;
+    border-radius: 5px;
+background: #e59110;
+box-shadow:  5px 5px 8px #bebdb6,
+             -5px -5px 8px #ffffff;
+}
+.black {
+    float: left;
+    width: 320px;
+    height: 320px;
+    background-color: #e59110;
+      font-size:250px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: 320px;
+    height: 320px;
+    background-color: #ffcfb6;
+    font-size:250px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.drawb {
+background-color: #FFFFFF;
+color: #000000;
+border: 5px solid #6D6D6D;
+padding: 5px;
+margin: 20px;
+font-family: 'arial black';
+font-size: 100px;
+text-align: center;
+}
+.resignb {
+background-color: #FFFFFF;
+color: #000000;
+border: 5px solid #6D6D6D;
+padding: 5px;
+margin: 20px;
+font-family: 'arial black';
+font-size: 100px;
+text-align: center;
+}
+#winscreen {
+background-color: #FFFFFF;
+color: #000000;
+margin: 0;
+position: fixed;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+border: 60px solid #6D6D6D;
+padding: 10px;
+font-family: helvetica;
+font-size: 250px;
+text-align: center;
+border-radius: 100px;
+text-shadow: 2px 2px 6px #ABABAB;
+}
+#drawvote {
+background-color: #FFFFFF;
+color: #000000;
+margin: 0;
+position: fixed;
+top: 20%;
+left: 80%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-20%, -80%);
+border: 60px solid #6D6D6D;
+padding: 10px;
+font-family: helvetica;
+font-size: 150px;
+text-align: center;
+border-radius: 100px;
+text-shadow: 2px 2px 6px #ABABAB;
+}
