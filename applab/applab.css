@@ -1,0 +1,37 @@
+.hide {
+  display: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.hide-source #visualization {
+  display: inline-block;
+}
+.hide-source #belowVisualization {
+  display: inline-block;
+  vertical-align: top;
+}
+.hide-source #bubble {
+  display: none;
+}
+
+body.readonly.embed-block #codeWorkspace .userHidden {
+  display: none;
+}
+#divApplab .design-mode-hidden,
+#designModeViz .design-mode-hidden,
+.draggingParent .design-mode-hidden {
+  visibility: hidden;
+}
+
+#divApplab.notRunning .design-mode-hidden,
+#designModeViz .design-mode-hidden,
+.draggingParent .design-mode-hidden {
+  visibility: visible;
+  opacity: 0.3;
+}
+.theme-dropdown .Select-value-label .checkbox {
+  visibility: hidden;
+}
